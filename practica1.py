@@ -159,7 +159,7 @@ def etiquetar_frame(frame, numero):
             return 0
 
 
-# ===================== PASO 1: ETIQUETAR =====================
+# PASO 1: ETIQUETAR
 video = cv2.VideoCapture(VIDEO_ENTRADA)
 fps = video.get(cv2.CAP_PROP_FPS)
 ancho = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -194,7 +194,7 @@ while hay_frame:
 cv2.destroyWindow(VENTANA)
 video.release()
 
-# ===================== PASO 2: PREPARAR VÍDEOS =====================
+# PASO 2: PREPARAR VÍDEOS
 n = len(objetos)   # número de objetos distintos
 
 # Todos los frames de un vídeo deben medir lo mismo: para cada objeto se usa
@@ -219,7 +219,7 @@ for i in range(n):
     videos_forma.append(cv2.VideoWriter(nombre + '_forma.avi', codec, fps, (anchos[i], altos[i])))
     videos_oculto.append(cv2.VideoWriter(nombre + '_oculto.avi', codec, fps, (ancho, alto)))
 
-# ===================== PASO 3: GENERAR VÍDEOS =====================
+# PASO 3: GENERAR VÍDEOS
 video = cv2.VideoCapture(VIDEO_ENTRADA)
 for f in range(len(regiones_por_frame)):
     hay_frame, frame = video.read()
