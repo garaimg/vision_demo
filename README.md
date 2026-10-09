@@ -16,7 +16,7 @@ Primero se etiqueta el vídeo `video_perro.mp4` frame a frame. Al pulsar `Q` (o 
 | Pinchar y arrastrar un punto amarillo | Seleccionar su región (se pinta en azul mientras se arrastra) y mover ese punto |
 | `C` | Cerrar la región actual (utilizarse cuando queda un punto para cerrar) |
 | `Z` | Deshacer el último punto |
-| Clic derecho dentro de una región | Eliminar ese objeto |
+| Clic derecho dentro de una región | Eliminar ese objeto (región, se eliminará la región para todo el vídeo) |
 | `ESPACIO` | Siguiente frame (mantiene las regiones) |
 | `A` | Saltar 10 frames manteniendo las regiones |
 | `Q` | Terminar el etiquetado y generar los vídeos |
