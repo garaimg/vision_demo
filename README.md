@@ -14,7 +14,7 @@ Primero se etiqueta el vídeo `video_perro.mp4` frame a frame. Al pulsar `Q` (o 
 |---|---|
 | Clic izquierdo | Añadir un punto a la región actual |
 | Pinchar y arrastrar un punto amarillo | Seleccionar su región (se pinta en azul mientras se arrastra) y mover ese punto |
-| `C` | Cerrar la región actual |
+| `C` | Cerrar la región actual (utilizarse cuando queda un punto para cerrar) |
 | `Z` | Deshacer el último punto |
 | Clic derecho dentro de una región | Eliminar ese objeto |
 | `ESPACIO` | Siguiente frame (mantiene las regiones) |
